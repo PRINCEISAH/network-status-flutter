@@ -53,11 +53,11 @@ For further details, consult the [Flutter Networking Documentation].
 
 ### 1. Add dependency
 
-Append the `internet_connection_checker_plus` package to your `pubspec.yaml` file:
+Append the `internet_connection_checker` package to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  internet_connection_checker_plus: ^2.1.0
+  internet_connection_checker: ^2.1.0
 ```
 
 ### 2. Import the package
@@ -65,7 +65,7 @@ dependencies:
 Integrate the `internet_connection_checker_plus` package into your Dart file:
 
 ```dart
-import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
+import 'package:internet_connection_checker/internet_connection_checker.dart';
 ```
 
 ### 3. Checking for internet connectivity
@@ -145,7 +145,7 @@ The goal of this package is to offer support for the `web` platform, a feature c
 
 <!-- Badges URLs -->
 
-[package_svg]: https://img.shields.io/pub/v/internet_connection_checker_plus.svg?color=blueviolet
+[package_svg]: https://img.shields.io/pub/v/internet_connection_checker.svg?color=blueviolet
 [license_svg]: https://img.shields.io/github/license/OutdatedGuy/internet_connection_checker_plus.svg?color=purple
 [issues_svg]: https://img.shields.io/github/issues/OutdatedGuy/internet_connection_checker_plus.svg
 [issues_closed_svg]: https://img.shields.io/github/issues-closed/OutdatedGuy/internet_connection_checker_plus.svg?color=green
